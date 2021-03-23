@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Estável"
+    tools:context=".inicio">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/pessoa"
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/Lilás"
+        android:text="          Entrar"
+        android:textSize="50dp"
+        android:layout_marginTop="10dp"></TextView>
+    <EditText
+
+
+
+        android:hint=" |Coloque seu email"
+        android:textColorHint=""
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/RosaLeve"
+
+    />
+    <EditText
+
+
+        android:inputType="textEmailAddress"
+        android:hint=" |Coloque sua senha"
+        android:textColorHint=""
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/RosaLeve"
+
+        />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="  ou"
+        android:textSize="20dp"
+
+
+        />
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:backgroundTint="@color/AzulLeve"
+            android:textSize="12dp"
+            android:text=" Entrar com facebook "
+
+
+
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:backgroundTint="@color/Preto"
+        android:textColor="@color/Branco"
+        android:text="Entrar com GitHub "></Button>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:text=" Ainda não tem conta?"
+            android:padding="2dp"
+            android:textSize="20dp"></TextView>
+
+
+
+
+        <Button
+            android:layout_height="50dp"
+            android:layout_width="200dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Cadastre-se"
+
+
+            android:backgroundTint="@color/VermelhoLeve">
+        </Button>
+
+
+
+
+    <!--A partir da definição de sua largura-limitada-pode ser levado ao centro-horizontal-->
+
+    />
+
+
+
+
+
+
+</LinearLayout>
